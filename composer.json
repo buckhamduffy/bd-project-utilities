@@ -1,0 +1,23 @@
+{
+    "name": "buckhamduffy/bd-project-utilities",
+    "description": "BuckhamDuffy Utilities for every project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Florey",
+            "email": "aaron@buckhamduffy.com",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "slevomat/coding-standard": "^5.0"
+    },
+    "scripts": {
+        "validate-composer": "@composer validate --no-check-all --strict"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
