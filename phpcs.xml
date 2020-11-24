@@ -103,14 +103,17 @@
     <rule ref="SlevomatCodingStandard.Classes.DisallowMultiPropertyDefinition"/>
     <rule ref="SlevomatCodingStandard.Classes.MethodSpacing"/>
     <rule ref="SlevomatCodingStandard.Classes.PropertySpacing"/>
-    <rule ref="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature"></rule>
-    <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"></rule>
-    <rule ref="SlevomatCodingStandard.ControlStructures.RequireTernaryOperator"></rule>
-    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"></rule>
-    <rule ref="SlevomatCodingStandard.Functions.DisallowEmptyFunction"></rule>
-    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"></rule>
-    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration"></rule>
-<!--    <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints"></rule>-->
+    <rule ref="SlevomatCodingStandard.Classes.RequireSingleLineMethodSignature"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireShortTernaryOperator"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.RequireTernaryOperator"/>
+    <rule ref="SlevomatCodingStandard.ControlStructures.DisallowYodaComparison"/>
+    <rule ref="SlevomatCodingStandard.Functions.DisallowEmptyFunction"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.AlphabeticallySortedUses"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.NamespaceDeclaration"/>
+    <rule ref="SlevomatCodingStandard.PHP.ShortList"/>
+    <rule ref="SlevomatCodingStandard.PHP.TypeCast"/>
+    <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName"/>
+<!--    <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints"/>-->
 
     <rule ref="Zend.NamingConventions.ValidVariableName">
         <exclude name="Zend.NamingConventions.ValidVariableName.NotCamelCaps"/>
