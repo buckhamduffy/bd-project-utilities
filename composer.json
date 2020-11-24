@@ -1,7 +1,7 @@
 {
     "name": "buckhamduffy/bd-project-utilities",
     "description": "BuckhamDuffy Utilities for every project",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,9 @@
     "require": {
         "squizlabs/php_codesniffer": "^3.5",
         "slevomat/coding-standard": "^6.0"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "*"
     },
     "scripts": {
         "validate-composer": "@composer validate --no-check-all --strict"
