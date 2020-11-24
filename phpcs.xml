@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Buckham &amp; Duffy">
+<ruleset name="BuckhamDuffy">
 	<description>The coding standard for Buckham &amp; Duffy.</description>
 
 	<arg name="colors"/>
